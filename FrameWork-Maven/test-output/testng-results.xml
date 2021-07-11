@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Banking App Test" duration-ms="27123" started-at="2021-07-11T08:13:40Z" finished-at="2021-07-11T08:14:07Z">
+    <groups>
+    </groups>
+    <test name="TestinFirefox" duration-ms="27123" started-at="2021-07-11T08:13:40Z" finished-at="2021-07-11T08:14:07Z">
+      <class name="frameWork.TestCase.AddAccount_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:frameWork.TestCase.AddAccount_001@57fffcd7]" name="setUp" is-config="true" duration-ms="9632" started-at="2021-07-11T08:13:53Z" finished-at="2021-07-11T08:14:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewAccount()[pri:0, instance:frameWork.TestCase.AddAccount_001@57fffcd7]" name="addNewAccount" duration-ms="2963" started-at="2021-07-11T08:14:03Z" finished-at="2021-07-11T08:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:frameWork.TestCase.AddAccount_001@57fffcd7]" name="tearDown" is-config="true" duration-ms="1378" started-at="2021-07-11T08:14:06Z" finished-at="2021-07-11T08:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- frameWork.TestCase.AddAccount_001 -->
+      <class name="frameWork.TestCase.Login_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:frameWork.TestCase.Login_001@3abbfa04]" name="setUp" is-config="true" duration-ms="10054" started-at="2021-07-11T08:13:40Z" finished-at="2021-07-11T08:13:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:frameWork.TestCase.Login_001@3abbfa04]" name="loginTest" duration-ms="1351" started-at="2021-07-11T08:13:50Z" finished-at="2021-07-11T08:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:frameWork.TestCase.Login_001@3abbfa04]" name="tearDown" is-config="true" duration-ms="1443" started-at="2021-07-11T08:13:52Z" finished-at="2021-07-11T08:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- frameWork.TestCase.Login_001 -->
+    </test> <!-- TestinFirefox -->
+  </suite> <!-- Banking App Test -->
+</testng-results>

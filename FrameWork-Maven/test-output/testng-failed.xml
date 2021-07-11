@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Banking App Test]">
+  <listeners>
+    <listener class-name="frameWork.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="TestinFirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="frameWork.TestCase.Login_DDT_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 4"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- frameWork.TestCase.Login_DDT_002 -->
+    </classes>
+  </test> <!-- TestinFirefox(failed) -->
+</suite> <!-- Failed suite [Banking App Test] -->

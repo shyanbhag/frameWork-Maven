@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Banking App Test">
+	<listeners>
+		<listener class-name="frameWork.utilities.Reporting"></listener>
+	</listeners>
+
+  <test name="TestinFirefox">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+     <class name="frameWork.TestCase.Login_001"/> 
+        <!--<class name="frameWork.TestCase.Login_DDT_002"/>-->
+      <class name="frameWork.TestCase.AddAccount_001"/>
+    </classes>
+  </test> 
+</suite>
